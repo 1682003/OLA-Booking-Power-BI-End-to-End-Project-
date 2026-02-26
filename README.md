@@ -1,96 +1,76 @@
-# OLA-Booking-Power-BI-End-to-End-Project-
-End-to-end data analytics project using SQL and Power BI with booking data.
+OLA Ride Booking Data Analysis Project
 
+Project Overview
 
-# End-to-End Data Analytics Project: Ride Booking Analysis (SQL + Power BI)
-This project demonstrates a complete end-to-end data analytics workflow:
-data extraction, cleaning, SQL view creation, and interactive dashboard
-development in Power BI.
+This project analyzes ride booking data from a ride hailing platform similar to Ola. The main goal of this project is to understand booking demand, revenue patterns, vehicle performance, and cancellation behavior. The analysis helps identify important trends that can support business decision making and improve operational efficiency.
 
----
+This project demonstrates real world data analysis skills using SQL and Power BI, including data cleaning, querying, dashboard creation, and insight generation.
 
-#🚀 Project Workflow
+Business Objective
 
-1. 🗂️ Data Source
-Synthetic ride booking data was generated containing:
-- Booking ID
-- Vehicle Type
-- Pickup/Drop Location
-- Ride Distance
-- Fare
-- Payment Type
-- Booking Status (Success/Cancelled)
-- Timestamps
+Ride booking companies need to understand customer demand, peak booking hours, revenue contribution, and cancellation trends. Without proper analysis, companies may face revenue loss, inefficient driver allocation, and poor service quality.
 
----
+This project helps answer important business questions such as
 
-2. 🧹 Data Cleaning & SQL Processing
+What are the peak booking hours
+Which vehicle types generate the most revenue
+What are the cancellation trends
+How booking demand changes over time
+How operational efficiency can be improved
 
-All preprocessing was performed using SQL.
+Tools and Technologies Used
 
-Key steps:
-- Removed inconsistent and missing values
-- Standardized categorical fields
-- Converted timestamps into proper datetime formats
-- Created analytical SQL views
+SQL for data analysis and querying
+Power BI for dashboard creation and visualization
+CSV dataset for analysis
+GitHub for project documentation
 
- ✔ Example SQL Views Used
-- `Successful_Bookings`: filters all successful ride records  
-- `ride_distance_for_each_vehicle`: average distance by vehicle type  
-- `cancelled_rides_by_customers`: total customer cancellations  
+Project Workflow
 
-All SQL files are available inside the SQL folder.
+Data collection from booking dataset
+Data cleaning and preparation using SQL
+Exploratory data analysis using SQL queries
+Creation of interactive dashboard using Power BI
+Identification of important business insights
 
----
+Key Insights
 
- 3. 📊 Power BI Dashboard
+Booking demand is highest during evening hours, indicating peak travel time
+Some vehicle types contribute significantly more revenue than others
+Cancellation patterns vary based on time and booking conditions
+Booking trends show clear demand patterns that can help improve driver allocation
 
-An interactive dashboard was created using the cleaned dataset.
+Skills Demonstrated
 
- Dashboard Highlights:
-- Booking success vs cancellations
-- Demand trends over time
-- Average ride distance by vehicle type
-- Customer behaviour insights
-- Revenue and fare trends
+SQL querying and data analysis
+Data cleaning and preprocessing
+Business insight generation
+Dashboard creation using Power BI
+Analytical thinking and problem solving
 
-Screenshots are available in the **Images** folder.
+Business Impact
 
----
+This analysis can help ride booking companies
 
- 4. 📁 Repository Structure
-SQL/               -> All SQL scripts (cleaning, views, transformations)
-Data/              -> Raw and cleaned datasets
-PowerBI/           -> PBIX dashboard file
-Images/            -> Dashboard screenshots
-README.md          -> Documentation
+Improve driver allocation
+Optimize revenue strategies
+Reduce cancellation rates
+Improve operational efficiency
+Understand customer booking behavior
 
+Project Files
 
----
-5. 📥 How to Use
-1. Download the project or clone the repository.
-2. Open the SQL scripts from the `/SQL` folder.
-3. Load the cleaned dataset into Power BI.
-4. Open `PowerBI/Ola_Booking_Dashboard.pbix` to explore the dashboard.
+Dataset file containing booking data
+SQL queries used for analysis
+Power BI dashboard file
+Project documentation
 
-6. 📌Tools Used
-- SQL
-- Power BI Desktop
-- Excel / CSV
-- DAX (Basic)
-- Data Modeling
+About Me
 
-7. ⭐ Key Learnings
-- Designing an end-to-end analytics flow  
-- Writing optimized SQL queries and views  
-- Building interactive dashboards  
-- Turning raw data into actionable insights  
+Anuj Mulha
+Computer Science student with strong interest in Data Analysis and Machine Learning
+Skilled in SQL, Python, Power BI, and data analysis
 
-This project is ideal for Data Analyst roles and showcases:
-- SQL proficiency  
-- Problem-solving  
-- Dashboard building  
-- Real-world analytics flow  
+Conclusion
 
-
-
+This project demonstrates the complete data analysis process from raw data to business insights. It reflects practical skills required for entry level data analyst roles and shows the ability to work with real world datasets and generate meaningful insights.
