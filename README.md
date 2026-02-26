@@ -1,76 +1,58 @@
-OLA Ride Booking Data Analysis Project
+OLA Ride Booking Data Analysis using SQL and Power BI
 
 Project Overview
 
-This project analyzes ride booking data from a ride hailing platform similar to Ola. The main goal of this project is to understand booking demand, revenue patterns, vehicle performance, and cancellation behavior. The analysis helps identify important trends that can support business decision making and improve operational efficiency.
+This project analyzes ride booking data from a ride hailing platform to identify demand patterns, revenue trends, and cancellation behavior. The goal is to generate business insights that help improve operational efficiency, driver allocation, and revenue optimization.
 
-This project demonstrates real world data analysis skills using SQL and Power BI, including data cleaning, querying, dashboard creation, and insight generation.
+The project demonstrates end to end data analysis including data cleaning, SQL analysis, and interactive dashboard development using Power BI.
 
-Business Objective
+Tools and Technologies
 
-Ride booking companies need to understand customer demand, peak booking hours, revenue contribution, and cancellation trends. Without proper analysis, companies may face revenue loss, inefficient driver allocation, and poor service quality.
+SQL for data cleaning and analysis
+Power BI for dashboard and visualization
+CSV dataset for data source
+Data modeling and business analysis
 
-This project helps answer important business questions such as
+Analysis Workflow
 
-What are the peak booking hours
-Which vehicle types generate the most revenue
-What are the cancellation trends
-How booking demand changes over time
-How operational efficiency can be improved
-
-Tools and Technologies Used
-
-SQL for data analysis and querying
-Power BI for dashboard creation and visualization
-CSV dataset for analysis
-GitHub for project documentation
-
-Project Workflow
-
-Data collection from booking dataset
-Data cleaning and preparation using SQL
-Exploratory data analysis using SQL queries
-Creation of interactive dashboard using Power BI
-Identification of important business insights
+Collected and examined ride booking dataset
+Cleaned and transformed data using SQL
+Performed analysis to identify trends and patterns
+Built interactive dashboard using Power BI
+Generated business insights from the analysis
 
 Key Insights
 
-Booking demand is highest during evening hours, indicating peak travel time
-Some vehicle types contribute significantly more revenue than others
-Cancellation patterns vary based on time and booking conditions
-Booking trends show clear demand patterns that can help improve driver allocation
+Peak booking demand occurs during evening hours, indicating highest ride usage during commute time
+
+Sedan and Prime vehicle types generate the highest revenue contribution
+
+Cancellation rates are higher during low demand periods
+
+Long distance rides contribute higher revenue per booking
+
+Business Value
+
+This analysis helps improve driver allocation during peak hours
+
+Helps identify high performing vehicle types for revenue optimization
+
+Supports data driven operational and pricing decisions
 
 Skills Demonstrated
 
-SQL querying and data analysis
+SQL data analysis and querying
 Data cleaning and preprocessing
-Business insight generation
 Dashboard creation using Power BI
+Business insight generation
 Analytical thinking and problem solving
-
-Business Impact
-
-This analysis can help ride booking companies
-
-Improve driver allocation
-Optimize revenue strategies
-Reduce cancellation rates
-Improve operational efficiency
-Understand customer booking behavior
-
-Project Files
-
-Dataset file containing booking data
-SQL queries used for analysis
-Power BI dashboard file
-Project documentation
-
-About Me
-
-Anuj Mulha
-Computer Science student with strong interest in Data Analysis and Machine Learning
-Skilled in SQL, Python, Power BI, and data analysis
 
 Conclusion
 
-This project demonstrates the complete data analysis process from raw data to business insights. It reflects practical skills required for entry level data analyst roles and shows the ability to work with real world datasets and generate meaningful insights.
+This project demonstrates practical data analysis skills including working with real world datasets, generating business insights, and building dashboards. It reflects skills required for entry level data analyst and IT roles.
+
+Author
+
+Anuj Mulha
+Computer Science Student
+Skilled in SQL, Python, Power BI, and Data Analysis
